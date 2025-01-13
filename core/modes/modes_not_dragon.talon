@@ -30,7 +30,16 @@ not speech.engine: dragon
 # It's a useful and well known command, though, so if you're using any other speech
 # engine, this controls Talon.
 ^go to sleep [<phrase>]$: speech.disable()
-^talon sleep [<phrase>]$: speech.disable()
+
+^talon sleep [<phrase>]$:
+    speech.disable()
+    user.mouse_sleep()
+    user.disconnect_ocr_eye_tracker()
+
+^drowse [<phrase>]$:
+    speech.disable()
+    user.mouse_sleep()
+    user.disconnect_ocr_eye_tracker()
 
 ^sleep all [<phrase>]$:
     user.switcher_hide_running()
@@ -39,3 +48,4 @@ not speech.engine: dragon
     user.help_hide()
     user.mouse_sleep()
     speech.disable()
+	user.disconnect_ocr_eye_tracker()

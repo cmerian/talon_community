@@ -34,3 +34,7 @@ settings():
     user.mouse_wake()
     user.history_enable()
     user.talon_mode()
+
+^(talon wake)+$:
+    speech.enable()
+    user.connect_ocr_eye_tracker()

@@ -38,3 +38,11 @@ settings():
 ^(talon wake)+$:
     speech.enable()
     user.connect_ocr_eye_tracker()
+
+# This is a variant of talon wake where it always comes back in command mode and with control mouse enabled
+^(talon jump)+$:
+    speech.enable()
+    user.connect_ocr_eye_tracker()
+	mode.disable("dictation")
+    mode.enable("command")
+	tracking.control_toggle()

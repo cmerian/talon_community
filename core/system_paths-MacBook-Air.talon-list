@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: MacBook-Air
+-
+user: /Users/mimichen
+desktop: /Users/mimichen/Desktop
+desk: /Users/mimichen/Desktop
+documents: /Users/mimichen/Documents
+docks: /Users/mimichen/Documents
+downloads: /Users/mimichen/Downloads
+music: /Users/mimichen/Music
+pictures: /Users/mimichen/Pictures
+videos: /Users/mimichen/Videos
+talon home: /Users/mimichen/.talon
+talon recordings: /Users/mimichen/.talon/recordings
+talon user: /Users/mimichen/.talon/user
+home: /Users/mimichen

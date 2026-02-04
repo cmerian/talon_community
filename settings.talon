@@ -21,16 +21,11 @@ settings():
     # Uncomment to always sort help contexts alphabetically.
     # user.help_sort_contexts_by_specificity = false
 
-<<<<<<< HEAD
     # Set the scroll amount for continuous scroll
     user.mouse_continuous_scroll_amount = 8
 
     # Set the scroll multiplier for gaze scroll
     user.mouse_gaze_scroll_speed_multiplier = 1.0
-=======
-    # Set the scroll amount for continuous scroll/gaze scroll
-    user.mouse_continuous_scroll_amount = 10
->>>>>>> refs/remotes/origin/main
 
     # Set the maximum acceleration factor when scrolling continuously. 1=constant speed/no acceleration.
     user.mouse_continuous_scroll_acceleration = 1

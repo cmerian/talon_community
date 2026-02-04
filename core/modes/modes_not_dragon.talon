@@ -20,13 +20,16 @@ not speech.engine: dragon
 #
 # It's a useful and well known command, though, so if you're using any other speech
 # engine, this controls Talon.
-^go to sleep [<phrase>]$: speech.disable()
+^go to sleep [<phrase>]$:
+	speech.disable()
+	user.mouse_sleep()
+    user.disconnect_ocr_eye_tracker()
 
 ^talon sleep [<phrase>]$:
     speech.disable()
     user.mouse_sleep()
     user.disconnect_ocr_eye_tracker()
-    user.deprecate_command("2025-06-25", "talon sleep (without dragon)", "go to sleep")
+#    user.deprecate_command("2025-06-25", "talon sleep (without dragon)", "go to sleep")
 
 ^drowse [<phrase>]$:
     speech.disable()

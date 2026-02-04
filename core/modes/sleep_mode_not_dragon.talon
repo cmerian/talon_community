@@ -11,9 +11,11 @@ not tag: user.deep_sleep
 # It's a useful and well known command, though, so if you're using any other speech
 # engine, this controls Talon.
 
-^(wake up)+$: speech.enable()
-
+^(wake up)+$:
+	speech.enable()
+    user.connect_ocr_eye_tracker()
+	
 ^talon wake [<phrase>]$:
     speech.enable()
     user.connect_ocr_eye_tracker()
-    user.deprecate_command("2025-06-25", "talon wake (without dragon)", "wake up")
+#    user.deprecate_command("2025-06-25", "talon wake (without dragon)", "wake up")

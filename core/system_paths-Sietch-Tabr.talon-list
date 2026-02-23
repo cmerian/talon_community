@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: Sietch-Tabr
+-
+user: C:\Users\chris
+desktop: C:\Users\chris\Desktop
+desk: C:\Users\chris\Desktop
+documents: C:\Users\chris\Documents
+docks: C:\Users\chris\Documents
+downloads: C:\Users\chris\Downloads
+music: C:\Users\chris\Music
+pictures: C:\Users\chris\Pictures
+videos: C:\Users\chris\Videos
+talon home: C:\Users\chris\AppData\Roaming\talon
+talon recordings: C:\Users\chris\AppData\Roaming\talon\recordings
+talon user: C:\Users\chris\AppData\Roaming\talon\user
+profile: C:\Users\chris

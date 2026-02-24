@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: RS-DXWCKB4
+-
+user: C:\Users\cmerian
+desktop: C:\Users\cmerian\Desktop
+desk: C:\Users\cmerian\Desktop
+documents: C:\Users\cmerian\Documents
+docks: C:\Users\cmerian\Documents
+downloads: C:\Users\cmerian\Downloads
+music: C:\Users\cmerian\Music
+pictures: C:\Users\cmerian\Pictures
+videos: C:\Users\cmerian\Videos
+talon home: C:\Users\cmerian\AppData\Roaming\talon
+talon recordings: C:\Users\cmerian\AppData\Roaming\talon\recordings
+talon user: C:\Users\cmerian\AppData\Roaming\talon\user
+profile: C:\Users\cmerian
